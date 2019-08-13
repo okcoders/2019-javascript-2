@@ -70,20 +70,35 @@ O   O K K  C    o o d  d e e r    s
 ### continue learning the command line: 
 - [code academy](https://www.codecademy.com/learn/learn-the-command-line) 
 
-### Marketing Mailer
 
-We want to send a mailer to all females less than 30 years old, use the class-1-data.json file, filter for said individuals, and console.log a mailer for those individuals asking if they would like to buy their favorite toy.
+### Continue practicing higher order functions
 
-Minimum example:
+Here is a video Nazeem provided: https://www.youtube.com/watch?v=rRgD1yVwIvE
+And here are other resoucrs I sent earlier:
+- https://www.freecodecamp.org/news/higher-order-functions-in-javascript-d9101f9cf528/
+- https://www.freecodecamp.org/news/a-quick-intro-to-higher-order-functions-in-javascript-1a014f89c6b/
+- https://medium.com/humans-create-software/a-dirt-simple-introduction-to-higher-order-functions-in-javascript-b33bf9e19056
+- https://medium.com/@js_tut/higher-order-functions-in-javascript-732dc7a1952d
 
-----------------------------------------
-| Hi John,                             |
-|                                      |
-| Want to buy a top hat?               |
-|                                      |
-|                                      |
-|                                      |
-| Best,                                |
-| Your friends at Best Top Hats        |
-|                                      |
-----------------------------------------
+in particular try to understand these two important ones:
+- filter
+- map
+
+#### Filter
+
+When we have an array of any type of element, we can use filter. Filter will give us back an array with the elements in the original array unmodified, but which a subset of our choosing.
+
+For example, we can have an array of numbers:
+[1, 2, 3, 4] and go to only even [2, 4]
+or an array of objects:
+[{name: "zach", age: 4}, {name: "bob", age: 22}] and go to only aged greater than 10 [{name: "bob", age: 22}]
+
+#### Map
+
+With map we have an array of any kind of element, and we want to modify each element in the array in some way.
+
+For example we can add to each element of a number array
+[1, 2, 3, 4] and go to each number + 1 [2, 3, 4, 5]
+
+or go from an array of objects [{name: "zach", age: 4}, {name: "bob", age: 22}] 
+and pull out one of the properties ["zach", "bob"]
