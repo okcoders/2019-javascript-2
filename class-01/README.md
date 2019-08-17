@@ -38,18 +38,6 @@ There are lots of different concepts surrounding programs:
 
 In this module we are going to focus on writing javascript programs that we will run in node
 
-
-#### Command line programs often try to give pretty output:
-
-```
- OOO  K  K  CCC        d             
-O   O K K  C           d             
-O   O KK   C    ooo  ddd eee rrr  ss 
-O   O K K  C    o o d  d e e r    s  
- OOO  K  K  CCC ooo  ddd ee  r   ss  
-                                     
-```
-
 ### More Higher Order Functions
 
 - forEach
@@ -61,9 +49,6 @@ O   O K K  C    o o d  d e e r    s
 
 - keyword exercise
 - create some .txt files, add some random data to each file, and then cat and grep each file for the letter "a"
-- write a program that logs the length of the class-1-data.json file, the number of males, then number of femails, and the cumulative age of everyone
-- shipping label for each person
-- try to implement filter on your own
 
 ## Homework
 
