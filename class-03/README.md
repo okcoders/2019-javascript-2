@@ -1,6 +1,8 @@
 
 # Class 03
 
+## Overview of homework answers
+
 ## More 3rd party modules
 
 ### lodash
@@ -12,6 +14,13 @@
 ### moment
 
 - [parse](https://momentjs.com/docs/#/parsing/string-format/)
+
+## more es6
+
+- fat arrow, implicit returns, no need for brackets
+- default parameters
+- destructuring, pattern matching
+- object key property shorthand notation
 
 ## Synchronous vs Async and the Node context
 
