@@ -49,7 +49,7 @@ In the browser we have the window and the various things exposed to us though th
 - [posts](https://jsonplaceholder.typicode.com/posts)
 - [todos](https://jsonplaceholder.typicode.com/todos)
 
-1) hit the posts route and print the first one to the console
+1) hit the posts route and print the number of posts for userId 8
 2) hit the todos route and print the number of todos that are not completed
 
 ### Marketing Mailer
