@@ -19,6 +19,22 @@
 
 6) implement the filter higher order function
 
+function filter(array, callback) {
+	const newArray = []
+	for(let i = 0; i ???; i++) {
+
+		callback(array[i])
+	}
+
+	return ???
+}
+
+const example = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+const result = filter(example, e => e % 2 === 0)
+
+<!-- result should equal [2. 4, 6, 8, 10] -->
+
 7) what are the commands you need to run in order to create a new project and add lodash to it?
 
 8) how do you list the contents of a directory?

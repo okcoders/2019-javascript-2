@@ -1,0 +1,16 @@
+{
+  "name": "in-class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "homework-answers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  }
+}
